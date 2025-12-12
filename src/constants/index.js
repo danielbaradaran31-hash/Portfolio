@@ -4,4 +4,4 @@ const navLinks = [
                     {id: 3, name: "Projects"},
                 ];
 
-                export { navLinks };
+                export { navLinks, navIcons };
