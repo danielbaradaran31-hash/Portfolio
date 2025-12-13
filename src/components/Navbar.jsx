@@ -1,11 +1,12 @@
-import { navIcons, navLinks } from "#constants";
-import dayjs from "dayjs"
+import dayjs from "dayjs";
+import {  navIcons,navLinks } from "#constants";
+
 
 const Navbar = () => {
   return (
     <nav>
         <div>
-            <img src="images/logo.svg" alt="logo"/>
+            <img src="/images/logo.svg" alt="logo"/>
             <p className="font-bold">Daniel Portfolio</p>
 
 

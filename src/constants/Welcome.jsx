@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 
-const FONT WEIGHTS = {
+const FONT_WEIGHTS = {
    subtitle: { min: 100, max: 400 , default: 100 },
     title: { min: 400, max: 900, default: 400 },
 };
@@ -8,7 +8,7 @@ const FONT WEIGHTS = {
 const renderText = (text, className, baseWeight = 400) =>{
 return [...text].map((char, i) => (
     <span key={i} className={className} style={{fontVariationSettings: `'whgt ${baseWeight}`}}>
-        {char== "" ? '\u00A0' : char}</span>
+        {char=== "" ? '\u00A0' : char}</span>
 ));
 }
 
@@ -16,6 +16,7 @@ const setupTextHover = (container, type ) => {
     if(!container) return;
 
     const letters = container.querySelectorAll('span');
+};
 const Welcome = () => {
     const titleRef = useRef(null);
     const subtitleRef = useRef(null);
@@ -27,7 +28,7 @@ const Welcome = () => {
         <h1 ref={titleRef} className='mt-7'>
             {renderText("Portfolio", 'text-9xl italic font-georama')}</h1>
 
-        <div className='smal-screen'>
+        <div className='small-screen'>
             <p>Das ist designed für desktop/tabled nur screens</p>
         </div>
     </section>
