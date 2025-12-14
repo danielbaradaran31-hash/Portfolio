@@ -39,4 +39,58 @@ const navIcons = [
 
                 ];
 
-                export { navIcons,navLinks };
+                const dockApps = [
+                { 
+                    id: "Finder",
+                     name: "Portfolio", // was "Finder "
+                      icon: "finder.png",
+                      canOpen: true,
+                    },
+
+                    { 
+                        id: "Safari", name: "Articles", // was "Safari"
+                         icon: "safari.png",
+                         canOpen: true ,
+                        },
+                       { 
+                        id: "photos",
+                         name: "Gallery", // was "Photos"
+                          icon: "photos.png",
+                          canOpen: true ,
+                        },
+                       
+                       { 
+                        id:  "contacts", 
+                        name: "Contact", // was "Contacts"
+                         canOpen: true ,
+                          icon: "contact.png",
+                        },
+                        { 
+                        id:  "terminal", 
+                        name: "Skills", // was "Contacts"
+                         canOpen: true ,
+                          icon: "terminal.png",
+                        },
+                        { 
+                        id:  "trash", 
+                        name: "Archive", // was "Trash"
+                         canOpen: false ,
+                          icon: "trash.png",
+                        },
+                    
+
+];
+const INITIAL_Z_INDEX = 1000;
+
+const WINDOW_CONFIG = {
+  finder: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  contact: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  resume: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  safari: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  photos: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  terminal: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  txtfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+};
+
+                export { navLinks, navIcons, dockApps,INITIAL_Z_INDEX, WINDOW_CONFIG };
