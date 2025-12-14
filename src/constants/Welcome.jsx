@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { gsap } from 'gsap';
+import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
 const FONT_WEIGHTS = {
@@ -15,13 +15,13 @@ return [...text].map((char, i) => (
 }
 
 const setupTextHover = (container, type ) => {
-    if(!container) return;
+    if(!container) return () => {};
 
-    const letters = container.querySelectorAll('span');
+    const letters = container.querySelectorAll("span");
     const { min, max, default: base } = FONT_WEIGHTS[type];
 
     const animateLetter = (letter, weight, duration = 0.25) => {
-        return gsap.to(letter, { duration, ease: 'power2.out', fontVariationSettings: `'wght' ${weight}`,
+        return gsap.to(letter, { duration, ease: "power2.out", fontVariationSettings: `'wght' ${weight}`,
          });
 
         };
@@ -33,9 +33,9 @@ const setupTextHover = (container, type ) => {
         const mouseX = e.clientX - left;
 
         letters.forEach((letter) => {
-            const {left: l , width: w } = letter.getBoundingClientRect();
-            const distance = Math.abs(mouseX - (l + left + w / 2));
-            const intensity = Math.exp(-( distance ** 2)/ 2000);
+            const {left: l, width: w } = letter.getBoundingClientRect();
+            const distance = Math.abs(mouseX - (l  + w / 2));
+            const intensity = Math.exp(-( distance ** 2)/ 20000);
 
 
             animateLetter(letter, min + (max - min) *  intensity);
@@ -44,7 +44,7 @@ const setupTextHover = (container, type ) => {
        const  handleMouseLeave = () => {
         letters.forEach((letter) => 
             animateLetter(letter, base, 0.3));
-       
+    };
        container.addEventListener("mousemove", handleMouseMove);
        container.addEventListener("mouseleave", handleMouseLeave);
      
@@ -82,10 +82,10 @@ const Welcome = () => {
             {renderText("Portfolio", 'text-9xl italic font-georama')}</h1>
 
         <div className='small-screen'>
-            <p>Das ist designed für desktop/tabled nur screens</p>
+            <p>Das ist designed für desktop/tablet nur screens.</p>
         </div>
     </section>
-  )
-}
+  );
+};
 
 export default Welcome;
