@@ -1,5 +1,6 @@
 import dayjs from "dayjs";
 import {  navIcons,navLinks } from "#constants";
+import { Type } from "lucide-react";
 
 
 const Navbar = () => {
@@ -14,8 +15,8 @@ const Navbar = () => {
 
 
             <ul>
-                {navLinks.map(( {id, name} ) => (
-                    <li key={id} onClick={() => openWindow(name.toLowerCase())}>
+                {navLinks.map(( {id, name,type} ) => (
+                    <li key={id} onClick={() => openWindow(type)}>
                         <p>{name}</p>
                     </li>
                 ))}
