@@ -4,7 +4,7 @@ import WindowWrapper from "#hoc/WindowWrapper.jsx";
 import { locations } from "#constants/index.js";
 import useLocationStore from "#store/location";
 import clsx from "clsx";
-import useWindowStore from "#store/window:js";
+import useWindowStore from "#store/window.js";
 
 const Finder = () => {
     const {openWindow} = useWindowStore();
@@ -47,7 +47,7 @@ const Finder = () => {
     </div>
 
 
-    <div className="bg-white" flex h-full>
+    <div className="bg-white flex h-full" >
         <div className="sidebar">
                 {renderList('Favorites',Object.values(locations))}
                 {renderList('My Projects',locations.work.children)}

@@ -1,6 +1,6 @@
 import WindowWrapper from "#hoc/WindowWrapper.jsx";
 import { Download } from "lucide-react";
-import WindowControlls from "#components/WindowControls.jsx";
+import WindowControls from "#components/WindowControls.jsx";
 import { Document,Page, pdfjs } from "react-pdf";
 
 import 'react-pdf/dist/Page/AnnotationLayer.css';
@@ -14,7 +14,7 @@ const Resume = () => {
   return (
     <>
   <div id="window-header">
-    <WindowControlls target="resume"/>
+    <WindowControls target="resume"/>
     <h2>Resume.pdf</h2>
 
     <a href="files/resume.pdf" 

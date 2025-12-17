@@ -9,17 +9,17 @@ const useWindowStore = create(
     nextZIndex:  INITIAL_Z_INDEX + 1,
 
     openWindow: (windowKey, data = null) => set((state) => {
-        const window = state.windows[windowKey] ;
-        if(!window) return;
+        const win = state.windows[windowKey] ;
+        if(!win) return;
         win.isOpen = true;
         win.zIndex = state.nextZIndex;
         state.nextZIndex ++;
-        win.data = data ?? window.data;
+        win.data = data ?? win.data;
     }),
    
     closeWindow: (windowKey) => set((state) => {
-         const window = state.windows[windowKey] ;
-        if(!window) return;
+         const win = state.windows[windowKey] ;
+        if(!win) return;
         win.isOpen = false;
         win.zIndex = INITIAL_Z_INDEX;
        

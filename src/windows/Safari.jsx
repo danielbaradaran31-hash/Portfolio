@@ -1,12 +1,13 @@
-import WindowControlls from "#components";
+// import WindowControlls from "#components";
+import { WindowControls } from "#components";
 import WindowWrapper from "#hoc/WindowWrapper.jsx";
-import { ChevronLeft, ChevronRight, Copy, PanelLeft, Plus, Search, Share, ShieldHalf } from "lucide-react";
+import { ChevronLeft, ChevronRight, Copy, PanelLeft, Plus, Search, Share, ShieldHalf, MoveRight } from "lucide-react";
 
 const Safari = () => {
   return (
     <>
   <div id="window-header">
-    <WindowControlls target="safari"/>
+    <WindowControls target="safari"/>
 
 
     <PanelLeft className="ml-10 icon"/>

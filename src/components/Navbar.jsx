@@ -3,6 +3,10 @@ import {  navIcons,navLinks } from "#constants";
 import { Type } from "lucide-react";
 
 
+
+import useWindowStore from "#store/window";
+
+
 const Navbar = () => {
 
   const { openWindow } = useWindowStore();
