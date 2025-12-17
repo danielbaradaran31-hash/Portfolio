@@ -1,10 +1,6 @@
 import dayjs from "dayjs";
-import {  navIcons,navLinks } from "#constants";
-import { Type } from "lucide-react";
-
-
-
-import useWindowStore from "#store/window";
+import {  navIcons, navLinks } from "#constants";
+import useWindowStore from "#store/window.js";
 
 
 const Navbar = () => {
