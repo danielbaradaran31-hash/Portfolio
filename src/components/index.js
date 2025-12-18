@@ -5,4 +5,4 @@ import WindowControls from "#components/WindowControls.jsx";
 import Home from "#components/Home.jsx";
 
 
-export { Navbar, Welcome, Dock, WindowControls };
+export { Navbar, Welcome, Dock, WindowControls, Home };

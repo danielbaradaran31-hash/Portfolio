@@ -1,4 +1,4 @@
-const ImageWindow = () => {
+const ImageWindowContent = () => {
     const {windows} = useWindowStore();
     const data = windows.imgfile?.data ;
 

@@ -1,9 +1,9 @@
-import Terminal from "wi#windows/Terminal.jsx";
-import Safari from "w#windows/Safari.jsx";
-import Resume from "w#windows/Resume.jsx";
-import Finder from "w#windows/Finder.jsx";
-import Text from "w#windows/Text.jsx";
-import Image from "w#windows/Image.jsx";
+import Terminal from "#windows/Terminal.jsx";
+import Safari from "#windows/Safari.jsx";
+import Resume from "#windows/Resume.jsx";
+import Finder from "#windows/Finder.jsx";
+import Text from "#windows/Text.jsx";
+import Image from "#windows/Image.jsx";
 import Contact from "#windows/Contact.jsx";
 import Photos from "#windows/Photos.jsx";
 i
