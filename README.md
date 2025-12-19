@@ -1,16 +1,41 @@
-# React + Vite
+💻 MacBook Portfolio
+Ein einzigartiges Portfolio-Projekt, das wie ein virtuelles MacBook funktioniert – mit Fenstern, Dock, Finder und interaktiven Apps.
+Anstatt einer klassischen Portfolio-Seite erhältst du hier eine immersive Desktop-Erfahrung:
 
-#This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🖱️ Fenster öffnen und schließen wie im echten macOS
 
-#Currently, two official plugins are available:
+🎨 Sanfte Animationen mit GSAP
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚡ Hohe Performance durch Next.js & Tailwind CSS
 
-### React Compiler
+📂 Apps wie Finder, Safari, Photos & Contact – alle interaktiv
 
-##The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✨ Features
+Realistische MacBook-UI mit Dock und Fenstern
 
-## Expanding the ESLint configuration
+Responsives Design – optimiert für Desktop & Tablet
 
-##If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Animationen für Icons, Texte und Fensterbewegungen
+
+Saubere Code-Struktur für einfache Erweiterung
+
+🚀 Tech Stack
+Frontend: React, Next.js
+
+Styling: Tailwind CSS
+
+Animation: GSAP
+
+State Management: Zustand
+
+🎬 Demo
+Stell dir vor, du öffnest dein MacBook – aber es ist dein Portfolio.
+Jede Interaktion ist animiert, jede Bewegung fühlt sich flüssig und angenehm an.
+
+📌 Motivation
+Dieses Projekt zeigt, dass ein Portfolio mehr sein kann als nur eine Website:
+Es ist ein Erlebnis, das Design, Animation und Funktionalität vereint.
+
+💡 Wenn dir das Projekt gefällt, gib einen ⭐ und folge für weitere kreative Web-Experimente!
+
+👉 Möchtest du, dass ich dir auch eine kurze und minimalistische Version auf Deutsch schreibe, die nur für die schnelle Vorstellung im GitHub-Profil gedacht ist?
