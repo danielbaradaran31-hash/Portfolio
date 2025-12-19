@@ -20,7 +20,7 @@ Animationen für Icons, Texte und Fensterbewegungen
 Saubere Code-Struktur für einfache Erweiterung
 
 🚀 Tech Stack
-Frontend: React, Next.js
+Frontend: React.js
 
 Styling: Tailwind CSS
 
