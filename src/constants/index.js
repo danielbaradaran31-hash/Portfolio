@@ -137,19 +137,19 @@ const blogPosts = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/images/bakaren.jpg",
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/profile.jpg",
   },
   {
     id: 3,
-    img: "/images/gal3.png",
+    img: "/images/3nafari.jpg",
   },
   {
     id: 4,
-    img: "/images/gal4.png",
+    img: "/images/mizgerd.jpg",
   },
 ];
 
@@ -251,10 +251,10 @@ export {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "Die Nike E‑Commerce-Website ist eine elegante, moderne Plattform, die für das Einkaufen der neuesten Nike-Kollektionen entwickelt wurde.",
+            "Anstelle eines einfachen Online-Shops bietet sie ein immersives Erlebnis mit kräftigen Visuals, interaktiven Produktdarstellungen und sanfter Navigation",
+            "Stell dir vor, du betrittst einen Nike-Flagship-Store – nur eben direkt über dein Smartphone oder Laptop.",
+            "Sie ist mit Next.js  und Tailwind gebaut und sorgt so für schnelle Performance, responsives Design und einen klaren, hochwertigen Look.",
           ],
         },
         {
@@ -410,7 +410,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/keshti.jpg",
     },
     {
       id: 2,
@@ -419,16 +419,16 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/profile.jpg",
     },
     {
       id: 3,
       name: "conference-me.png",
-      icon: "/images/image.png",
+      icon: "/images/3nafari.jpg",
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/bakaren.jpeg",
     },
     {
       id: 4,
@@ -440,10 +440,10 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "/images/adrian.jpg",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "👋 Hey! Ich bin Daniel, ein Webentwickler, der es liebt, elegante und interaktive Websites zu bauen, die wirklich gut funktionieren.",
+        "Ich spezialisiere mich auf JavaScript, React und Next.js  – und ich liebe es, and Next.js—Dinge geschmeidig,schnell und ein kleines bisschen erfreulich zu machen.",
+        "Sauberes UI, gutes UX und Code, der nicht wie ein Labyrinth wirkt, sind mir besonders wichtig.",
+        "Außerhalb der Arbeit findest du mich oft um 2 Uhr nachts beim Layout-Tüfteln, beim Trinken von überteuertem Kaffee oder beim spontanen Kauf von Gadgets, von denen ich mich überzeugt habe, dass ich sie unbedingt brauche 😅.",
       ],
     },
   ],
