@@ -8,7 +8,8 @@ import { Terminal,Safari, Resume,Finder, Text , Image, Contact, Photos} from '#w
 gsap.registerPlugin(Draggable);
 
 const App = () => {
-  // console.log({ Dock, Navbar, Welcome,Terminal,Safari, Resume,Finder, Text});
+  // console.log({ Dock, Navbar, Welcome,Terminal,Safari, Resume,Finder, Text, Image, Contact, Home, Photos});
+  
   return (
     <main>
       <Navbar/>

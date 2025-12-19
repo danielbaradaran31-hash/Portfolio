@@ -10,7 +10,7 @@ const Contact = () => {
 
   return (
   <>
-    <div id=" window-header">
+    <div id="window-header">
 <WindowControls target="contact"/>
        <h2>Contact Me</h2>
 
@@ -19,7 +19,7 @@ const Contact = () => {
 
         <div className="p-5 space-y-5">
             <img src="/images/adrian.jpg" alt="Adrian" 
-            className="w-20  rounded-full m"/> 
+            className="w-20  rounded-full"/> 
 
             <h3>Lets Connect</h3>
 
@@ -49,4 +49,4 @@ const Contact = () => {
 
 const ContactWindow = WindowWrapper(Contact, "contact");
 
-export default Contact;
+export default ContactWindow;

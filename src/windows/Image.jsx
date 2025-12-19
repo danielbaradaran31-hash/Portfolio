@@ -1,10 +1,14 @@
+import WindowWrapper from "#hoc/WindowWrapper.jsx";
+import WindowControls from "#components/WindowControls.jsx";
+import useWindowStore from "#store/window";
+
 const ImageWindowContent = () => {
     const {windows} = useWindowStore();
     const data = windows.imgfile?.data ;
 
     if (!data) return null;
 
-    const { name, imgageUrl } = data;
+    const { name, imageUrl } = data;
 
     return (
         <>
@@ -14,9 +18,9 @@ const ImageWindowContent = () => {
         </div>
 
         <div className="p-5 bg-white">
-            {imgageUrl ?(
+            {imageUrl ?(
                 <div className="w-full">
-                    <img src={imgageUrl} alt={name} 
+                    <img src={imageUrl} alt={name} 
                     className="w-full h-auto rounded" />
                     </div> 
             ) : null}
