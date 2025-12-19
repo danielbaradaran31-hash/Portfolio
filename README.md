@@ -6,7 +6,7 @@ Anstatt einer klassischen Portfolio-Seite erhältst du hier eine immersive Deskt
 
 🎨 Sanfte Animationen mit GSAP
 
-⚡ Hohe Performance durch Next.js & Tailwind CSS
+⚡ Hohe Performance durch React.js & Tailwind CSS
 
 📂 Apps wie Finder, Safari, Photos & Contact – alle interaktiv
 
