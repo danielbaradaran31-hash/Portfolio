@@ -39,3 +39,4 @@ Es ist ein Erlebnis, das Design, Animation und Funktionalität vereint.
 💡 Wenn dir das Projekt gefällt, gib einen ⭐ und folge für weitere kreative Web-Experimente!
 
 👉 Möchtest du, dass ich dir auch eine kurze und minimalistische Version auf Deutsch schreibe, die nur für die schnelle Vorstellung im GitHub-Profil gedacht ist?
+ich habe mit Herz gemacht...
