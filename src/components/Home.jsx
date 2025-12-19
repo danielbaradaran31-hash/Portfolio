@@ -4,50 +4,35 @@ import { useGSAP } from "@gsap/react";
 import { Draggable } from "gsap/Draggable";
 import useWindowStore from "#store/window.js";
 
-const prijects = locations.work?.children ?? [];
-
-
-
-
+const projects = locations.work?.children ?? [];
 
 const Home = () => {
-    const { setActiveLocation } = useWindowStore();
-    const {openWindows} = useWindowStore();
+  const { openWindow } = useWindowStore();
 
+  const handleOpenProjectFinder = (project) => {
+    openWindow("finder");
+  };
 
-    const handleOpenProjectFinder = (project) => {
-        setActiveLocation(project);
-        openWindows("finder");
-    };
+  useGSAP(() => {
+    Draggable.create(".folder");
+  }, []);
 
-
-
-
-
-    useGSAP(() => {
-        Draggable.create(".folder");
-    }, []);
-            
-  return  (
+  return (
     <section id="home">
-        <ul>
-        {prijects.map((project) => (
-            <li key={project.id}
-                className={clsx("group folde", project.windowPosition)}
-                onDoubleClick={() => handleOpenProjectFinder(project)}
-            >
-                <img src="/images/folder.png" alt={project.name}/>
-                <p>{project.name}</p>
-                </li>
+      <ul>
+        {projects.map((project) => (
+          <li
+            key={project.id}
+            className={clsx("group folder", project.windowPosition)}
+            onDoubleClick={() => handleOpenProjectFinder(project)}
+          >
+            <img src="/images/folder.png" alt={project.name} />
+            <p>{project.name}</p>
+          </li>
         ))}
-        </ul>
-        </section>
-
-       
-       
-
+      </ul>
+    </section>
   );
-  
 };
 
 export default Home;

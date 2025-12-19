@@ -11,7 +11,7 @@ const Contact = () => {
   return (
   <>
     <div id="window-header">
-<WindowControls target="contact"/>
+<WindowControls target="contacts"/>
        <h2>Contact Me</h2>
 
         </div>  

@@ -41,14 +41,15 @@ const navIcons = [
 
                 const dockApps = [
                 { 
-                    id: "Finder",
-                     name: "Portfolio", // was "Finder "
+                    id: "finder",
+                     name: "Finder", // was "Finder "
                       icon: "finder.png",
                       canOpen: true,
                     },
 
                     { 
-                        id: "Safari", name: "Articles", // was "Safari"
+                        id: "safari", 
+                        name: "Safari", // was "Safari"
                          icon: "safari.png",
                          canOpen: true ,
                         },
@@ -61,7 +62,7 @@ const navIcons = [
                        
                        { 
                         id:  "contacts", 
-                        name: "Contact", // was "Contacts"
+                        name: "Contacts", // was "Contacts"
                          canOpen: true ,
                           icon: "contact.png",
                         },

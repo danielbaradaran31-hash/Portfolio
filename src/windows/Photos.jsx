@@ -7,7 +7,7 @@ import useWindowStore from "#store/window";
 
 const Photos = () => {
     const { openWindow } = useWindowStore();
-a
+
     return (
         <>
             <div id="window-header">
