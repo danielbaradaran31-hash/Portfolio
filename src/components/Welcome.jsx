@@ -77,13 +77,13 @@ const Welcome = () => {
   return (
     <section id='welcome'>
      <p ref={subtitleRef}>
-        {renderText("Hey , Ich bin Daniel! Willkommen in mein", 'text-3xl font-georama',100)}
+        {renderText("Hey , Ich bin Daniel! Willkommen in meinem", 'text-3xl font-georama',100)}
         </p>
         <h1 ref={titleRef} className='mt-7'>
             {renderText("Portfolio", 'text-9xl italic font-georama')}</h1>
 
         <div className='small-screen'>
-            <p>Das ist designed für desktop/tablet nur screens.</p>
+            <p>Diese Seite wurde für Desttop und Tablet gestalte.</p>
         </div>
     </section>
   );
