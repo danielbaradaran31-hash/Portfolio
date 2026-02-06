@@ -26,7 +26,7 @@ const Contact = () => {
             <p>
                 Got an idea? A bug to squash? Or just wanna talk tech?
             </p>
-            <p>danielbaradaran31@gmail.com</p>
+            <p>naser.baradaran33@gmail.com</p>
 
             <ul>
                 {socials.map(({ id, bg, link, icon, text}) => (

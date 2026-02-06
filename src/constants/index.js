@@ -86,7 +86,7 @@ const navIcons = [
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
+    items: ["React.js", "Next.js"],
   },
   {
     category: "Mobile",
@@ -98,7 +98,7 @@ const techStack = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js"],
   },
   {
     category: "Database",
@@ -441,7 +441,7 @@ const ABOUT_LOCATION = {
       image: "/images/adrian.jpg",
       description: [
         "👋 Hey! Ich bin Daniel, ein Webentwickler, der es liebt, elegante und interaktive Websites zu bauen, die wirklich gut funktionieren.",
-        "Ich spezialisiere mich auf JavaScript, React und Next.js  – und ich liebe es, and Next.js—Dinge geschmeidig,schnell und ein kleines bisschen erfreulich zu machen.",
+        "Ich spezialisiere mich auf JavaScript, React und Next.js  und ich liebe es, and Next.js Dinge geschmeidig,schnell und ein kleines bisschen erfreulich zu machen.",
         "Sauberes UI, gutes UX und Code, der nicht wie ein Labyrinth wirkt, sind mir besonders wichtig.",
         "Außerhalb der Arbeit findest du mich oft um 2 Uhr nachts beim Layout-Tüfteln, beim Trinken von überteuertem Kaffee oder beim spontanen Kauf von Gadgets, von denen ich mich überzeugt habe, dass ich sie unbedingt brauche 😅.",
       ],

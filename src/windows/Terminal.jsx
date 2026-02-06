@@ -13,13 +13,13 @@ const Terminal = () => {
 
       <div className="techstack">
         <p>
-          <span className="font-bold">@daniel % </span>
-          show tech stack
+          <span className="font-bold">@Naser % </span>
+         Tech-Stack anzeigen
         </p>
 
         <div className="label">
-          <p className="w-32">Category</p>
-          <p>Technologies</p>
+          <p className="w-32">Kategorie</p>
+          <p>Technologie</p>
         </div>
 
         <ul className="content">
@@ -38,12 +38,12 @@ const Terminal = () => {
 
               <div className="footnote">
                 <p>
-                  <Check size={20} />5 of 5 stacks loaded successfully (100%)
+                  <Check size={20} />5 von 5 Stacks erfolgreich geladen (100%)
                 </p>
 
                 <p className="text-black">
                   <Flag size={15} fill="black" />
-                  Render time: 6ms
+                  Renderzeit: 6ms
                 </p>
               </div>
             </li>

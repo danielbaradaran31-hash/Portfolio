@@ -47,7 +47,7 @@ const Safari = () => {
                 <p>{date}</p>
                 <h3>{title}</h3>
                 <a href={link} target="_blank" rel="noopener noreferrer">
-                    Check out the full post <MoveRight className="icon-hover"/>
+                    Schau dir den kompletten Post an. <MoveRight className="icon-hover"/>
                 </a>
             </div>
             </div>

@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav>
         <div>
             <img src="/images/logo.svg" alt="logo"/>
-            <p className="font-bold">Daniel Portfolio</p>
+            <p className="font-bold">Naser Portfolio</p>
 
 
             <ul>
