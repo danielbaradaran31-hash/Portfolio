@@ -98,7 +98,7 @@ const techStack = [
   },
   {
     category: "Backend",
-    items: ["Node.js"],
+    items: ["Next.js"],
   },
   {
     category: "Database",
