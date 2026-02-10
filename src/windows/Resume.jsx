@@ -16,7 +16,7 @@ const Resume = () => {
     <WindowControls target="resume"/>
     <h2>Resume.pdf</h2>
 
-    <a href="files/resume.pdf" 
+    <a href="/images/resume.pdf" 
     download 
     className="cursor-pointer" 
     title="Download resume">
